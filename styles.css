@@ -123,6 +123,26 @@ body {
     border-radius: 20px;
 }
 
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quoteText {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 10% 20% 0% 20%;
+    text-align: justify;
+}
+
+.quoteAuthor {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    margin: 0% 20% 7% 20%;
+}
 
 .footer {
     color: #f9faf8;
