@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+}
+
+.container {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    height: 30px;
+    padding: 20px;
+    background: #1F2937;
+    color:#ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0 5%;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5%;
+    width: 500px;
+}
+
+.link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.about {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 70px;
+    background: #1F2937;
+    
+}
+
+.HeroMainText {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.HeroSecondaryText {
+    font-size: 18px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.leftContent{
+    color: #e5e7eb;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.btnSignUp1 {
+    color: #f9faf8;
+    background-color: #3882F6;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 12px;
+
+}
+
+.rightContent{
+    margin: 5%;
+}
+
+.image1 {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.informations {
+    color: #1F2937;
+    text-align: center;
+    margin: 2.5%
+}
+
+.infoTitle {
+    font-size: 36px;
+}
+
+.listInfos {
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+}
+
+.info {
+    margin: 1%;
+}
+
+.infoImg {
+    width: 200px;
+    border: 20px #3882F6;
+    border-radius: 20px;
+}
+
+
+.footer {
+    color: #f9faf8;
+    background: #1F2937;
+    padding: 40px;
+    text-align: center;
+}
